@@ -9,13 +9,11 @@ public class Carro {
 
 	// TAREFA 1: criar esse método
 	public void abastece(double litros) {
-		System.out.print("Tanques antes de abastecer:");
-		System.out.println(tanque);
+		System.out.println("Tanques antes de abastecer: " + tanque);
 		if (tanque + litros <= capacidadeTanque) {
 			tanque += litros;
 		}
-		System.out.print("Tanques depois de abastecer:");
-		System.out.println(tanque);
+		System.out.println("Tanques depois de abastecer: " + tanque);
 	}
 
 	// TAREFA 2: criar esse método
@@ -26,10 +24,8 @@ public class Carro {
 
 	// TAREFA 3: criar esse método
 	public void anda(int kilometros) {
-		System.out.print("Kilometragem atual:");
-		System.out.println(kilometrosRodados);
+		System.out.println("Kilometragem atual: " + kilometrosRodados);
 		kilometrosRodados += kilometros;
-		System.out.print("Kilometragem depois de andar:");
-		System.out.println(kilometrosRodados);
+		System.out.println("Kilometragem depois de andar: " + kilometrosRodados);
 	}
 }
