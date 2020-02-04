@@ -48,6 +48,7 @@ public class Teste {
 //		opala.anda(1.7);
 		opala.anda((int)1.7);
 		
-
+		monza.imprime();
+		opala.imprime();
 	}
 }

@@ -28,4 +28,13 @@ public class Carro {
 		kilometrosRodados += kilometros;
 		System.out.println("Kilometragem depois de andar: " + kilometrosRodados);
 	}
+	
+	public void imprime() {
+		System.out.println("Nome: " + nome);
+		System.out.println("Kilometragem: " + kilometrosRodados);
+		System.out.println("Tanque: " + tanque);
+		System.out.println("Capacidade do tanque: " + capacidadeTanque);
+		System.out.println("Documentos pagos? " + documentosPagos);
+		System.out.println("Primeiro digito da placa: " + primeiroDigito);
+	}
 }
