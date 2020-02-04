@@ -29,7 +29,7 @@ public class Carro {
 		System.out.print("Kilometragem atual:");
 		System.out.println(kilometrosRodados);
 		kilometrosRodados += kilometros;
-		System.out.print("Kilometragem atual:");
+		System.out.print("Kilometragem depois de andar:");
 		System.out.println(kilometrosRodados);
 	}
 }
