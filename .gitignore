@@ -28,3 +28,6 @@ tags
 .project
 /Exemplo02/nbproject/private/
 /Exemplo02/build/
+nbproject/
+manifest.mf
+build.xml
