@@ -26,3 +26,5 @@ hs_err_pid*
 tags
 .classpath
 .project
+/Exemplo02/nbproject/private/
+/Exemplo02/build/

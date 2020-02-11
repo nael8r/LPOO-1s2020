@@ -10,7 +10,7 @@ public class Carro {
 	// TAREFA 1: criar esse método
 	public void abastece(double litros) {
 		System.out.println("Tanques antes de abastecer: " + tanque);
-		if (tanque + litros <= capacidadeTanque) {
+		if ( (tanque + litros <= capacidadeTanque) && (litros >= 0) ) {
 			tanque += litros;
 		}
 		System.out.println("Tanques depois de abastecer: " + tanque);
